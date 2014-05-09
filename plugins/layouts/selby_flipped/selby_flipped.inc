@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Selby Flipped'),
   'icon' => 'selby-flipped.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'selby_flipped',
   'css' => 'selby-flipped.css',
   'regions' => array(

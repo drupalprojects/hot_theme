@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Rolph'),
   'icon' => 'rolph.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'rolph',
   'css' => 'rolph.css',
   'regions' => array(

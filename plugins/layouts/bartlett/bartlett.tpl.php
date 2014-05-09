@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Bartlett.
+ * Template for hotsauce Bartlett.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -24,7 +24,7 @@
           <?php print $content['contentheader']; ?>
         </div>
       </div>
-    
+
       <div class="bartlett-content-container-column-container clearfix row-fluid">
         <div class="bartlett-column-content-region bartlett-content-column1 bartlett-column panel-panel span6">
           <div class="bartlett-column-content-region-inner bartlett-content-column1-inner bartlett-column-inner panel-panel-inner">

@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Taylor.
+ * Template for hotsauce Taylor.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -17,7 +17,7 @@
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="taylor-container taylor-column-content clearfix">
     <div class="taylor-column-content-region taylor-half taylor-column panel-panel">
       <div class="taylor-column-content-region-inner taylor-half-inner taylor-column-inner panel-panel-inner">
@@ -35,11 +35,11 @@
       </div>
     </div>
   </div>
-  
+
   <div class="taylor-container taylor-footer clearfix panel-panel">
     <div class="taylor-container-inner taylor-footer-inner panel-panel-inner">
       <?php print $content['footer']; ?>
     </div>
   </div>
-  
+
 </div><!-- /.taylor -->

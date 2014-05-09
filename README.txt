@@ -1,4 +1,4 @@
-Panopoly Theme
+hotsauce Theme
 ==============
 Helps with theming and provides many layouts
 

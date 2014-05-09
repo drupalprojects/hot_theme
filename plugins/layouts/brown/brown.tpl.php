@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for default Panopoly Brown.
+ * Template for default hotsauce Brown.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -24,7 +24,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="brown-container brown-middle clearfix row-fluid">
     <div class="brown-middle-region brown-column1 panel-panel span4">
       <div class="brown-middle-region-inner brown-column1-inner panel-panel-inner">
@@ -39,10 +39,10 @@
     <div class="brown-middle-region brown-column3 panel-panel span4">
       <div class="brown-middle-region-inner brown-column3-inner panel-panel-inner">
         <?php print $content['column3']; ?>
-      </div> 
+      </div>
     </div>
   </div>
-  
+
   <div class="brown-container brown-footer clearfix row-fluid">
     <div class="brown-footer-region brown-footer-column1 panel-panel span4">
       <div class="brown-footer-region-inner brown-footer-column1-inner panel-panel-inner">

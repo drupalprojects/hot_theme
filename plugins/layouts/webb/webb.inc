@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Webb'),
   'icon' => 'webb.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'webb',
   'css' => 'webb.css',
   'regions' => array(

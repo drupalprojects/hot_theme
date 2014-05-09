@@ -2,15 +2,15 @@
 
 /**
  * @file
- * The accordian style plugin that is part of Panopoly Theme
+ * The accordian style plugin that is part of hotsauce Theme
  */
 
 // Plugin definition
 $plugin = array(
   'title' => t('Accordion Style'),
   'description' => t('Display panes as accordion.'),
-  'render region' => 'panopoly_theme_panopoly_accordion_style_render_region',
-  'settings form' => 'panopoly_theme_panopoly_accordion_style_settings_form',
+  'render region' => 'hot_theme_hotsauce_accordion_style_render_region',
+  'settings form' => 'hot_theme_hotsauce_accordion_style_settings_form',
   'weight' => -15,
 );
 
@@ -19,7 +19,7 @@ $plugin = array(
  *
  * @ingroup themeable
  */
-function theme_panopoly_theme_panopoly_accordion_style_render_region($vars) {
+function theme_hot_theme_hotsauce_accordion_style_render_region($vars) {
 
   // Include Some Basic Information
   $display = $vars['display'];
@@ -29,7 +29,7 @@ function theme_panopoly_theme_panopoly_accordion_style_render_region($vars) {
 
   if (empty($display->css_id) ) {
     $region_id = 'accordion-panels-' . $region_id;
-  } 
+  }
   else {
     $region_id = 'accordion-' . $display->css_id;
   }
@@ -40,7 +40,7 @@ function theme_panopoly_theme_panopoly_accordion_style_render_region($vars) {
     if ($pane_id != 'empty_placeholder') {
       $output .= !empty($display->content[$pane_id]->title) ? '<h4 class="accordion-title">' . $display->content[$pane_id]->title . '</h4>' : '<h4 class="accordion-title">' . '&nbsp;' . '</h4>';
       $output .= '<div class="accordion-content ' . $region_id . '-' . $pane_id . '">' . $pane . '</div>';
-    } 
+    }
   }
   $output .= '</div>' ;
 
@@ -59,48 +59,48 @@ function theme_panopoly_theme_panopoly_accordion_style_render_region($vars) {
   return $output;
 }
 
-function panopoly_theme_panopoly_accordion_style_settings_form($style_settings) {
+function hot_theme_hotsauce_accordion_style_settings_form($style_settings) {
   $form['active'] = array(
     '#type' => 'textfield',
     '#title' => t('Set active'),
-    '#description' => t('Set to -1 if you want no pane active'),  
+    '#description' => t('Set to -1 if you want no pane active'),
     '#default_value' => (isset($style_settings['active'])) ? $style_settings['active'] : 0,
   );
   $form['autoHeight'] = array(
     '#type' => 'checkbox',
-    '#title' => t('Set to autoheight'),  
-    '#return_value' => 1,  
+    '#title' => t('Set to autoheight'),
+    '#return_value' => 1,
     '#default_value' => (isset($style_settings['autoHeight'])) ? $style_settings['autoHeight'] : 1,
   );
   $form['clearStyle'] = array(
     '#type' => 'checkbox',
     '#description' => t("If set, clears height and overflow styles after finishing animations. This enables accordions to work with dynamic content. Won't work together with autoHeight."),
-    '#title' => t('Clear heights after animation'),  
-    '#return_value' => 1,  
+    '#title' => t('Clear heights after animation'),
+    '#return_value' => 1,
     '#default_value' => (isset($style_settings['clearStyle'])) ? $style_settings['clearStyle'] : 0,
   );
   $form['collapsible'] = array(
     '#type' => 'checkbox',
     '#description' => t("Whether all the sections can be closed at once. Allows collapsing the active section by the triggering event (click is the default)."),
-    '#title' => t('Can close all section'),  
-    '#return_value' => 1,  
+    '#title' => t('Can close all section'),
+    '#return_value' => 1,
     '#default_value' => (isset($style_settings['collapsible'])) ? $style_settings['collapsible'] : 0,
   );
   $form['event'] = array(
     '#type' => 'select',
-    '#title' => t('The event on which to trigger the accordion.'),  
+    '#title' => t('The event on which to trigger the accordion.'),
     '#options' => array('click' => t('On click'), 'mouseover' => t('On mouse over')),
     '#default_value' => (isset($style_settings['event'])) ? $style_settings['event'] : 'click',
   );
   $form['fillSpace'] = array(
     '#type' => 'checkbox',
-    '#title' => t('If set, the accordion completely fills the height of the parent element. Overrides autoheight.'),  
+    '#title' => t('If set, the accordion completely fills the height of the parent element. Overrides autoheight.'),
     '#return_value' => TRUE,
     '#default_value' => (isset($style_settings['event'])) ? $style_settings['event'] : FALSE,
   );
   $form['navigation'] = array(
     '#type' => 'checkbox',
-    '#title' => t('If set, looks for the anchor that matches location.href and activates it. Great for href-based state-saving. Use navigationFilter to implement your own matcher..'),  
+    '#title' => t('If set, looks for the anchor that matches location.href and activates it. Great for href-based state-saving. Use navigationFilter to implement your own matcher..'),
     '#return_value' => TRUE,
     '#default_value' => (isset($style_settings['navigation'])) ? $style_settings['navigation'] : FALSE,
   );

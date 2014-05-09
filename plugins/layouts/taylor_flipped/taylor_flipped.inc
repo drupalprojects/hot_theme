@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Taylor Flipped'),
   'icon' => 'taylor-flipped.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'taylor_flipped',
   'css' => 'taylor-flipped.css',
   'regions' => array(

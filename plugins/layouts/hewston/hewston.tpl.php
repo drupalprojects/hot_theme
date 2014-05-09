@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for default Panopoly Hewston.
+ * Template for default hotsauce Hewston.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -24,7 +24,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="hewston-container hewston-middle clearfix row-fluid">
     <div class="hewston-middle-region hewston-column1 panel-panel span4">
       <div class="hewston-middle-region-inner hewston-column1-inner panel-panel-inner">
@@ -42,5 +42,5 @@
       </div>
     </div>
   </div>
-  
+
 </div><!-- /.hewston -->

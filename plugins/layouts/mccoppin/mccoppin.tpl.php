@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly McCoppin.
+ * Template for hotsauce McCoppin.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -29,5 +29,5 @@
       </div>
     </div>
   </div>
-  
+
 </div><!-- /.mccoppin -->

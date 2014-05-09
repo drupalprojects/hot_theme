@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Selby.
+ * Template for hotsauce Selby.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -46,7 +46,7 @@
             <?php print $content['contentfooter']; ?>
           </div>
         </div>
-      
+
       </div>
     </div><!-- /.selby-content-container -->
   </div>

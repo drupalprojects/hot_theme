@@ -1,4 +1,4 @@
-; Panopoly Theme Makefile
+; hotsauce Theme Makefile
 
 api = 2
 core = 7.x
@@ -11,7 +11,7 @@ projects[respondjs][subdir] = contrib
 libraries[respondjs][download][type] = get
 libraries[respondjs][download][url] = https://github.com/scottjehl/Respond/tarball/master
 
-; Bundle a Few Panopoly Approved Themes
+; Bundle a Few hotsauce Approved Themes
 
 projects[responsive_bartik][version] = 1.0-beta2
 projects[responsive_bartik][type] = theme

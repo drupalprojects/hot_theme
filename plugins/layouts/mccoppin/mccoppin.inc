@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('McCoppin'),
   'icon' => 'mccoppin.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'mccoppin',
   'css' => 'mccoppin.css',
   'regions' => array(

@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Harris.
+ * Template for hotsauce Harris.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -17,7 +17,7 @@
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="harris-container harris-column-content clearfix row-fluid">
     <div class="harris-column-content-region harris-column1 panel-panel span3">
       <div class="harris-column-content-region-inner harris-column1-inner panel-panel-inner">
@@ -35,5 +35,5 @@
       </div>
     </div>
   </div>
-  
+
 </div><!-- /.harris -->

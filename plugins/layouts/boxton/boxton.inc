@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Boxton'),
   'icon' => 'boxton.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'boxton',
   'regions' => array(
     'contentmain' => t('Content'),

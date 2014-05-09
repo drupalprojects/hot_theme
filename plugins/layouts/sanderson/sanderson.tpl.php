@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Sanderson.
+ * Template for hotsauce Sanderson.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -24,7 +24,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="sanderson-container sanderson-secondary-column-content sanderson-column-content-row2 clearfix row-fluid">
     <div class="sanderson-secondary-column-content-region sanderson-secondary-column1 panel-panel span4">
       <div class="sanderson-secondary-column-content-region-inner sanderson-secondary-column1-inner panel-panel-inner">
@@ -42,5 +42,5 @@
       </div>
     </div>
   </div>
-  
+
 </div><!-- /.sanderson -->

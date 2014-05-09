@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Moscone Flipped'),
   'icon' => 'moscone-flipped.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'moscone_flipped',
   'css' => 'moscone-flipped.css',
   'regions' => array(

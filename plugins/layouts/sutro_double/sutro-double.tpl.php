@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Sutro Double.
+ * Template for hotsauce Sutro Double.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -17,7 +17,7 @@
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="sutro-double-container sutro-double-column-content sutro-double-first-column-content clearfix">
     <div class="sutro-double-column-content-region sutro-double-column1 sutro-double-column panel-panel">
       <div class="sutro-double-column-content-region-inner sutro-double-column1-inner sutro-double-column-inner panel-panel-inner">
@@ -30,13 +30,13 @@
       </div>
     </div>
   </div>
-  
+
   <div class="sutro-double-container sutro-double-middle clearfix panel-panel">
     <div class="sutro-double-container-inner sutro-double-middle-inner panel-panel-inner">
       <?php print $content['middle']; ?>
     </div>
   </div>
-  
+
   <div class="sutro-double-container sutro-double-column-content sutro-double-second-column-content clearfix">
     <div class="sutro-double-column-content-region sutro-double-column1 sutro-double-column panel-panel">
       <div class="sutro-double-column-content-region-inner sutro-double-column1-inner sutro-double-column-inner panel-panel-inner">
@@ -49,11 +49,11 @@
       </div>
     </div>
   </div>
-  
+
   <div class="sutro-double-container sutro-double-footer clearfix panel-panel">
     <div class="sutro-double-container-inner sutro-double-footer-inner panel-panel-inner">
       <?php print $content['footer']; ?>
     </div>
   </div>
-  
+
 </div><!-- /.sutro-double -->

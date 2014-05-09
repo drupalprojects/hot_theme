@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Whelan'),
   'icon' => 'whelan.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'whelan',
   'css' => 'whelan.css',
   'regions' => array(

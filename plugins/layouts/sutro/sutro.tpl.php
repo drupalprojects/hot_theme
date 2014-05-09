@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Sutro.
+ * Template for hotsauce Sutro.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -17,7 +17,7 @@
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="sutro-container sutro-column-content clearfix row-fluid">
     <div class="sutro-column-content-region sutro-column1 sutro-column panel-panel span6">
       <div class="sutro-column-content-region-inner sutro-column1-inner sutro-column-inner panel-panel-inner">
@@ -30,11 +30,11 @@
       </div>
     </div>
   </div>
-  
+
   <div class="sutro-container sutro-footer clearfix panel-panel row-fluid">
     <div class="sutro-container-inner sutro-footer-inner panel-panel-inner span12">
       <?php print $content['footer']; ?>
     </div>
   </div>
-  
+
 </div><!-- /.sutro -->

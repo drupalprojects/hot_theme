@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Geary.
+ * Template for hotsauce Geary.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -17,7 +17,7 @@
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="geary-container geary-column-content clearfix row-fluid">
     <div class="geary-column-content-region geary-column1 panel-panel span4">
       <div class="geary-column-content-region-inner geary-column1-inner panel-panel-inner">
@@ -35,5 +35,5 @@
       </div>
     </div>
   </div>
-  
+
 </div><!-- /.geary -->

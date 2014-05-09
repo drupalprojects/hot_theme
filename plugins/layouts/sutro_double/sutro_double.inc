@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Sutro Double'),
   'icon' => 'sutro-double.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'sutro_double',
   'css' => 'sutro-double.css',
   'regions' => array(

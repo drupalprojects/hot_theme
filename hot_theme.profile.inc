@@ -1,14 +1,14 @@
 <?php
 /**
  * @file
- * panopoly_theme.profile.inc
+ * hot_theme.profile.inc
  */
 
-/** 
+/**
  * Add an install task to allow selection of the theme
  */
-function panopoly_theme_profile_theme_selection_install_task(&$install_task) {
-  $tasks['panopoly_theme_selection_form'] = array(
+function hot_theme_profile_theme_selection_install_task(&$install_task) {
+  $tasks['hot_theme_selection_form'] = array(
     'display_name' => t('Choose a theme'),
     'type' => 'form',
   );
@@ -18,7 +18,7 @@ function panopoly_theme_profile_theme_selection_install_task(&$install_task) {
 /**
  * Form to choose the starting theme from list of available options
  */
-function panopoly_theme_selection_form($form, &$form_state) {
+function hot_theme_selection_form($form, &$form_state) {
 
   // Set the page title
   drupal_set_title(t('Choose a theme'));
@@ -53,18 +53,18 @@ function panopoly_theme_selection_form($form, &$form_state) {
 /**
  * Form submit handler to select the theme
  */
-function panopoly_theme_selection_form_submit($form, &$form_state) {
+function hot_theme_selection_form_submit($form, &$form_state) {
 
   // Enable and set the theme of choice
   $theme = $form_state['values']['theme'];
   theme_enable(array($theme));
   variable_set('theme_default', $theme);
 
-  // Set the Bartik or Garland logo to be Panopoly's logo
+  // Set the Bartik or Garland logo to be hotsauce's logo
   if ($theme == 'bartik' || $theme == 'garland' || $theme == 'responsive_bartik') {
     $theme_data = _system_rebuild_theme_data();
     $theme_data[$theme]->info['settings']['default_logo'] = 0;
-    $theme_data[$theme]->info['settings']['logo_path'] = drupal_get_path('module', 'panopoly_theme') . '/images/panopoly_icon_theme.png';
+    $theme_data[$theme]->info['settings']['logo_path'] = drupal_get_path('module', 'hot_theme') . '/images/hotsauce_icon_theme.png';
     variable_set('theme_' . $theme . '_settings', $theme_data[$theme]->info['settings']);
   }
 

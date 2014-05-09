@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Pond.
+ * Template for hotsauce Pond.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -17,7 +17,7 @@
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="pond-container pond-column-content pond-column-content-row1 clearfix row-fluid">
     <div class="pond-column-content-region pond-column pond-column1 panel-panel span4">
       <div class="pond-column-content-region-inner pond-column-inner pond-column1-inner panel-panel-inner">
@@ -35,7 +35,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="pond-container pond-secondary-column-content pond-column-content-row2 clearfix row-fluid">
     <div class="pond-secondary-column-content-region pond-column pond-secondary-column1 panel-panel span4">
       <div class="pond-secondary-column-content-region-inner pond-column-inner pond-secondary-column1-inner panel-panel-inner">
@@ -53,11 +53,11 @@
       </div>
     </div>
   </div>
-  
+
   <div class="pond-container pond-footer clearfix panel-panel row-fluid">
     <div class="pond-container-inner pond-footer-inner panel-panel-inner span12">
       <?php print $content['footer']; ?>
     </div>
   </div>
-  
+
 </div><!-- /.pond -->

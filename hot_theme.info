@@ -1,0 +1,10 @@
+name = HotTheme!
+description = Helps with theming and provides many layouts.
+core = 7.x
+package = HotSauce!
+project = hot_theme
+dependencies[] = panels
+scripts[] = js/hotsauce-accordion.js
+stylesheets[all][] = css/hotsauce-featured.css
+stylesheets[all][] = css/hotsauce-accordian.css
+features[features_api][] = api:2

@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Pond'),
   'icon' => 'pond.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'pond',
   'css' => 'pond.css',
   'regions' => array(

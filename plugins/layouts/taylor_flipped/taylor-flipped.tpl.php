@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Taylor Flipped.
+ * Template for hotsauce Taylor Flipped.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -17,7 +17,7 @@
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="taylor-flipped-container taylor-flipped-column-content clearfix">
     <div class="taylor-flipped-column-content-region taylor-flipped-quarter1 taylor-flipped-column panel-panel">
       <div class="taylor-flipped-column-content-region-inner taylor-flipped-quarter1-inner taylor-flipped-column-inner panel-panel-inner">
@@ -35,11 +35,11 @@
       </div>
     </div>
   </div>
-  
+
   <div class="taylor-flipped-container taylor-flipped-footer clearfix panel-panel">
     <div class="taylor-flipped-container-inner taylor-flipped-footer-inner panel-panel-inner">
       <?php print $content['footer']; ?>
     </div>
   </div>
-  
+
 </div><!-- /.taylor-flipped -->

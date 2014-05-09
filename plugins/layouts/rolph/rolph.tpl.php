@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Rolph.
+ * Template for hotsauce Rolph.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -17,7 +17,7 @@
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="rolph-container rolph-quarter-content clearfix">
     <div class="rolph-column-content-region rolph-quarter1 rolph-quarter panel-panel">
       <div class="rolph-column-content-region-inner rolph-quarter1-inner rolph-quarter-inner panel-panel-inner">
@@ -40,11 +40,11 @@
       </div>
     </div>
   </div>
-  
+
   <div class="rolph-container rolph-footer clearfix panel-panel">
     <div class="rolph-container-inner rolph-footer-inner panel-panel-inner">
       <?php print $content['footer']; ?>
     </div>
   </div>
-  
+
 </div><!-- /.rolph -->

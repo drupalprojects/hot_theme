@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly bryant Flipped.
+ * Template for hotsauce bryant Flipped.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -24,5 +24,5 @@
       </div>
     </div>
   </div>
-    
+
 </div><!-- /.bryant-flipped -->

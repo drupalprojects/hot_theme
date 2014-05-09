@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Brenham.
+ * Template for hotsauce Brenham.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -16,7 +16,7 @@
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="brenham-container brenham-column-content clearfix row-fluid">
     <div class="brenham-column-content-region brenham-sidebar panel-panel span3">
       <div class="brenham-column-content-region-inner brenham-sidebar-inner panel-panel-inner">

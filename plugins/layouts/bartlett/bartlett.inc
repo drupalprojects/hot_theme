@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Bartlett'),
   'icon' => 'bartlett.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'bartlett',
   'css' => 'bartlett.css',
   'regions' => array(

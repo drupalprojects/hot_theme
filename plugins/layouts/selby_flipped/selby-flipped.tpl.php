@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Selby Flipped.
+ * Template for hotsauce Selby Flipped.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -14,7 +14,7 @@
   <div class="row-fluid">
     <div class="selby-flipped-content-container selby-flipped-container span8">
       <div class="selby-flipped-content-container-inner selby-flipped-container-inner">
-      
+
         <div class="selby-flipped-column-content-region selby-flipped-content-header clearfix panel-panel row-fluid">
           <div class="selby-flipped-column-content-region-inner selby-flipped-content-header-inner panel-panel-inner span12">
             <?php print $content['contentheader']; ?>

@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Bartlett Flipped.
+ * Template for hotsauce Bartlett Flipped.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.

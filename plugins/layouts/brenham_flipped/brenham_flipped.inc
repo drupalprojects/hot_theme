@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Brenham Flipped'),
   'icon' => 'brenham-flipped.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'brenham_flipped',
   'css' => 'brenham-flipped.css',
   'regions' => array(

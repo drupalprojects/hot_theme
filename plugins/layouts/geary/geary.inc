@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Geary'),
   'icon' => 'geary.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'geary',
   'css' => 'geary.css',
   'regions' => array(

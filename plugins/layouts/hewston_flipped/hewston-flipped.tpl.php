@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for default Panopoly Hewston Flipped.
+ * Template for default hotsauce Hewston Flipped.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -24,7 +24,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="hewston-flipped-container hewston-flipped-middle clearfix row-fluid">
     <div class="hewston-flipped-middle-region hewston-flipped-column1 panel-panel span4">
       <div class="hewston-flipped-middle-region-inner hewston-flipped-column1-inner panel-panel-inner">
@@ -42,5 +42,5 @@
       </div>
     </div>
   </div>
-  
+
 </div><!-- /.hewston-flipped -->

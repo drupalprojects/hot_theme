@@ -3,7 +3,7 @@
 $plugin = array(
   'title' => t('Burr'),
   'icon' => 'burr.png',
-  'category' => t('Panopoly'),
+  'category' => t('hotsauce'),
   'theme' => 'burr',
   'css' => 'burr.css',
   'regions' => array(

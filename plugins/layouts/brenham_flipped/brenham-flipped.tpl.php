@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Template for Panopoly Brenham Flipped.
+ * Template for hotsauce Brenham Flipped.
  *
  * Variables:
  * - $css_id: An optional CSS id to use for the layout.
@@ -16,7 +16,7 @@
       <?php print $content['header']; ?>
     </div>
   </div>
-  
+
   <div class="brenham-flipped-container brenham-flipped-column-content clearfix row-fluid">
     <div class="brenham-flipped-column-content-region brenham-flipped-content panel-panel span9">
       <div class="brenham-flipped-column-content-region-inner brenham-flipped-content-inner panel-panel-inner">
